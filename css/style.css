@@ -1,0 +1,67 @@
+.container-fluid{
+    height: 100vh;
+    background: linear-gradient(to left, rgb(235, 202, 202) , rgb(241, 189, 91));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel{
+    background-color: aliceblue;
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.carousel-inner{
+    padding-left: 80px;
+
+}
+
+.carousel-inner h5{
+    font-style: oblique;
+    font-weight: 300;    
+    text-align: center;
+    font-size: 1.1em;
+    padding-left: 5px;
+    margin-right: 10%;    
+}
+
+.carousel-item img{   
+    width: 8%;
+    border-radius: 50%; 
+}
+
+.fa-quote-left{
+    color: orange;
+    padding: 10px;
+}
+
+p{
+    opacity: 0.6;
+    font-size: 0.8em;
+    padding-left: 90px;
+    text-align: start;       
+}
+@media(max-width: 932px){
+    .carousel{
+        width: 85%;
+        height: 50vh;
+    }
+    .carousel-inner{       
+        padding: 5px;
+    
+    }
+    .carousel-item img{   
+        display: none;
+    }
+    .carousel-inner h5{
+        font-style: oblique;
+        font-weight: 400;    
+        text-align: center;
+        font-size: 1.3em;       
+        margin-right: 13%;   
+    }
+}
